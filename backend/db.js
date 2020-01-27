@@ -2,8 +2,6 @@ var mysql = require('mysql');
 var connection;
 
 
-
-
 module.exports.getConnection = function () {
 	 if (!connection) {
         connection = mysql.createConnection({
